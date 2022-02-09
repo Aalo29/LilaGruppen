@@ -13,32 +13,40 @@
     <!-- Navbar start -->
     <div>
       <script>
-        HTMLImporter.import("./navbar.html", "Erik Grune");
+        HTMLImporter.import("./navbar.html");
       </script>
     </div>
-
     <!-- Navbar End -->
+
     <div class="container">
-      <div class="col-5" style="position: relative; top: -50px; right: 25px">
+      <div class="col-5" style="position: relative; top: -40px; right: 25px">
         <img
           class="img-profile rounded-circle mx-auto mb-2"
           src="images/erikgrune.jpg"
           alt="Erik Grune"
-          style="border: 0.5rem solid rgba(255, 255, 255, 0.2)"
-        />
+          style="border: 0.5rem solid rgba(255, 255, 255, 0.2)"></img>
+
+        <a class="hover" href="https://github.com/Zaai90"><i class="fab fa-github"></i> GitHub</a>
       </div>
 
-      <p>Jag går Systemutveckling .Net på Yrkeshögskolan i Borås.</p>
-      <a href="https://github.com/Zaai90">GitHub Profil</a>
+      <div style="position: relative">
+        <p class="text-center">
+          Jag går Systemutveckling .Net på Yrkeshögskolan i Borås.
+        </p>
 
-      <h3>Saker jag är bra på:</h3>
-      <ul>
-        <li><p>Programmera</p></li>
-        <li><p>Rulla tummarna</p></li>
-        <li><p>Dricka kaffe</p></li>
-      </ul>
-
-      <a href="index.html">Tillbaka</a>
+        <div class="text-center" style="position: relative">
+          <h3>Tre saker jag är bra på:</h3>
+          <ul>
+            <li><p>Programmera</p></li>
+            <li><p>Rulla tummarna</p></li>
+            <li><p>Dricka kaffe</p></li>
+          <br></br>
+          </ul>
+        </div>
+      </div>
     </div>
   </body>
+  <script>
+    HTMLImporter.import("./footer.html", "Erik Grune");
+  </script>
 </html>
