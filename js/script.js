@@ -45,9 +45,9 @@ HTMLImporter.import = function(url,stringTitle = 'Title') {
 
     this.removeEventListener("error", error);
     this.removeEventListener("load", load);
-    
-    document.getElementsByClassName("banner-text")[0].innerHTML =
-    stringTitle;
+
+    document.getElementsByClassName("banner-text")[0].innerHTML = stringTitle;
+
   };
 
   error = function(event) {
