@@ -1,7 +1,10 @@
 img {
-    border-radius: 50%;
-  }
+  border-radius: 50%;
+}
 
-  body {
-    background-color: rgb(56, 106, 201);
-  }
+body {
+  background-color: rgb(56, 106, 201);
+  font-family: "VT323", monospace;
+  /* background-color: #36393f; */
+  font-size: xx-large;
+}

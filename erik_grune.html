@@ -1,24 +1,44 @@
 <!DOCTYPE html>
 
 <html>
-  <header>
+  <head>
+    <script src="js/script.js"></script>
+    <script>
+      HTMLImporter.import("./header.html");
+    </script>
     <title>Erik Grune</title>
-    <link rel="stylesheet" href="css/profile.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  </header>
-  <h1>Erik Grune</h1>
-  <div><img src="images/erikgrune.jpg" alt="Erik Grune" /></div>
-  <p>Jag går Sytemutveckling .Net på Yrkeshögskolan i Borås.</p>
-  <a href="https://github.com/Zaai90">GitHub Profil</a>
+  </head>
 
-  <h2>Saker jag är bra på:</h2>
-  <ul>
-    <li><p>Programmera</p></li>
-    <li><p>Rulla tummarna</p></li>
-    <li><p>Dricka kaffe</p></li>
-  </ul>
+  <body>
+    <!-- Navbar start -->
+    <div>
+      <script>
+        HTMLImporter.import("./navbar.html", "Erik Grune");
+      </script>
+    </div>
 
-  <a href="index.html">Tillbaka</a>
+    <!-- Navbar End -->
+    <div class="container">
+      <div class="col-5" style="position: relative; top: -50px; right: 25px">
+        <img
+          class="img-profile rounded-circle mx-auto mb-2"
+          src="images/erikgrune.jpg"
+          alt="Erik Grune"
+          style="border: 0.5rem solid rgba(255, 255, 255, 0.2)"
+        />
+      </div>
 
-  <body></body>
+      <p>Jag går Systemutveckling .Net på Yrkeshögskolan i Borås.</p>
+      <a href="https://github.com/Zaai90">GitHub Profil</a>
+
+      <h3>Saker jag är bra på:</h3>
+      <ul>
+        <li><p>Programmera</p></li>
+        <li><p>Rulla tummarna</p></li>
+        <li><p>Dricka kaffe</p></li>
+      </ul>
+
+      <a href="index.html">Tillbaka</a>
+    </div>
+  </body>
 </html>
